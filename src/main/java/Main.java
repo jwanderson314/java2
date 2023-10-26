@@ -74,7 +74,7 @@ public class Main {
     private static void ex6() {
 
         var shapes = new ArrayList<Shape>();
-        //shapes.add(new Square(3));
+        shapes.add(new Square(3));
         shapes.add(new Rectangle(10,3));
         for (Shape s : shapes) {
             System.out.println(s.draw());
